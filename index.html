@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logoPokemon.png" alt="logo du pokeshop"></a>
+            <div class="search">
+                <input type="text" placeholder="Rechercher">
+                <button id="search">🔍</button>
+            </div>
+            <a href="cart.html" id="cart">🛒</a>
+        </nav>
+    </header>
+    <main>
+        <div class="filter">
+            <select id="type-filter">
+                <option value="">Tous</option>
+            </select>
+        </div>
+
+        <div class="cards">
+
+        </div>
+
+        <div class="pages">
+            <button id="prev-page">⬅️</button>
+            <button id="next-page">➡️</button>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Pokémon. © 1995-2024 Nintendo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/pokemonNb.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
